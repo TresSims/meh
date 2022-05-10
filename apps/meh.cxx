@@ -1,3 +1,4 @@
+#include <sys/stat.h>
 #include <iostream>
 #include <meh/logic.hpp>
 
@@ -16,10 +17,28 @@ int main(int argc, char *argv[]) {
       std::cout << "Adding " << argv[i] << " to process list" << std::endl;
       in[i - 2] = argv[i];
     }
-    exportModelListTo3MF(in, out, argc-2);
-  } else {
-    std::cout << "No model files where specified";
-  }
+    char overwrite;
+    struct stat buffer;
+    if(stat(argv[1], &buffer) == 0){
+            std::cout << argv[1]
+                    << " already exists, are you sure you want to overwrite? [y/n] ";
+            std::cin >> overwrite;
+      if (overwrite == 'n' || overwrite == 'N') {
+        std::cout << "Won't overwrite file, exiting." << std::endl;
+        return 1;
+      }
+    }
 
-  std::cout << "Done" << std::endl;
+    exportModelListTo3MF(in, out, argc - 2);
+    return 0;
+  } else {
+    std::cout
+        << "To use this tool, run meh followed by the name of the output 3mf"
+        << std::endl
+        << "and then the names of the files to convert to 3mf. For example:"
+        << std::endl
+        << argv[0] << " MyNew3MF.3mf MyFile1.obj  MyFile2.stl etc";
+    std::cout << "No model files where specified";
+    return 2;
+  }
 }

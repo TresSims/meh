@@ -17,6 +17,10 @@ include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/external/eigen)
 include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/external/glfw/include)
 include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/external/glew/include)
 
+# File Dialog for ImGui
+add_subdirectory(extern/ImGuiFileDialog)
+include_directories(${PROJECT_SOURCE_DIR}/extern/ImGuiFileDialog)
+
 # add source utility
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
@@ -25,3 +29,6 @@ add_subdirectory(src)
 
 # Add executable Directory
 add_subdirectory(apps)
+
+# Add UI Directory
+add_subdirectory(ui)
