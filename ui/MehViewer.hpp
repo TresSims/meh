@@ -17,6 +17,8 @@ class MehViewer : public pmp::MeshViewer
 
                 void draw(const std::string& draw_mode) override; 
 
+                void toggle_mesh_vis(int idx);
+
         protected:
                 //! this function handles mouse button presses
                 void mouse(int button, int action, int mods) override;

@@ -12,8 +12,8 @@ MehViewer::MehViewer(const char *title, int width, int height)
   clear_draw_modes();
   add_draw_mode("Smooth Shading");
   add_draw_mode("Hidden Line");
+  add_draw_mode("Points");
   set_draw_mode("Smooth Shading");
-  set_draw_mode("Points");
   meshCount_ = 0;
 }
 
@@ -63,7 +63,12 @@ void MehViewer::draw(const std::string &drawMode) {
 }
 
 void MehViewer::process_imgui() {
-  if (ImGuiFileDialog::Instance()->Display("ChooseNewMesh")) {
+  float display_w = 500;
+  float display_h = 500;
+  ImVec2 maxSize = ImVec2((float)display_w * 1.5f, (float)display_h * 1.5f);
+  ImVec2 minSize = ImVec2((float)display_w, (float)display_h);
+  if (ImGuiFileDialog::Instance()->Display(
+          "ChooseNewMesh", ImGuiWindowFlags_NoCollapse, minSize, maxSize)) {
     // action if OK
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
@@ -77,7 +82,8 @@ void MehViewer::process_imgui() {
     ImGuiFileDialog::Instance()->Close();
   }
 
-  if (ImGuiFileDialog::Instance()->Display("SaveNew3MF")) {
+  if (ImGuiFileDialog::Instance()->Display(
+          "SaveNew3MF", ImGuiWindowFlags_NoCollapse, minSize, maxSize)) {
     // action if OK
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
@@ -86,7 +92,7 @@ void MehViewer::process_imgui() {
       std::cout << filePathName << " " << filePath << std::endl;
       char *inputs[meshCount_];
       for (int i = 0; i < meshCount_; i++) {
-              inputs[i] = &(names_[i])[0];
+        inputs[i] = &(names_[i])[0];
       }
 
       meh::exportModelListTo3MF(inputs, &filePathName[0], meshCount_);
@@ -97,10 +103,12 @@ void MehViewer::process_imgui() {
   }
 
   for (int i = 0; i < meshCount_; i++) {
-    ImGui::BulletText(&(names_[i])[0]);
+    ImGui::Text(&(names_[i])[0]);
     ImGui::BulletText("%d vertices", (int)meshes_[i].n_vertices());
     ImGui::BulletText("%d edges", (int)meshes_[i].n_edges());
     ImGui::BulletText("%d faces", (int)meshes_[i].n_faces());
+    if (ImGui::Button("Toggle Visibility"))
+      MehViewer::toggle_mesh_vis(i);
     ImGui::Separator();
   }
 }
@@ -122,4 +130,11 @@ void MehViewer::process_imgui_menubar() {
 
 void MehViewer::mouse(int button, int action, int mods) {
   MeshViewer::mouse(button, action, mods);
+}
+
+void MehViewer::toggle_mesh_vis(int idx) {
+  if (vis_[idx])
+    vis_[idx] = false;
+  else
+    vis_[idx] = true;
 }
