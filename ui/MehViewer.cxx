@@ -113,7 +113,7 @@ void MehViewer::process_imgui_menubar() {
     }
     if (ImGui::MenuItem("Save", "Ctrl+S")) { /* Do stuff */
       ImGuiFileDialog::Instance()->OpenDialog(
-          "SaveNew3MF", "Choose a save Location", nullptr, ".");
+          "SaveNew3MF", "Choose a save Location", ".3mf", ".");
     }
     ImGui::EndMenu();
   }
