@@ -7,7 +7,7 @@ project(meh
         LANGUAGES CXX)
 
 # 3MF
-include_directories(${PROJECT_SOURCE_DIR}/extern/lib3mf/bindings)
+include_directories(${PROJECT_SOURCE_DIR}/extern/lib3mf/Bindings)
 
 # pmp
 add_subdirectory(extern/pmp-library)

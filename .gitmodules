@@ -1,6 +1,3 @@
-[submodule "extern/lib3mf"]
-	path = extern/lib3mf
-	url = git@github.com:3MFConsortium/lib3mf
 [submodule "extern/pmp-library"]
 	path = extern/pmp-library
 	url = git@github.com:dash-orlando/pmp-library
