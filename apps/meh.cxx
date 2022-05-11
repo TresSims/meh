@@ -17,6 +17,7 @@ int main(int argc, char *argv[]) {
       std::cout << "Adding " << argv[i] << " to process list" << std::endl;
       in[i - 2] = argv[i];
     }
+    // Check stat to see if file exists to prevent accidental overwrite
     char overwrite;
     struct stat buffer;
     if(stat(argv[1], &buffer) == 0){
@@ -31,14 +32,16 @@ int main(int argc, char *argv[]) {
 
     exportModelListTo3MF(in, out, argc - 2);
     return 0;
-  } else {
+  } 
+  // If there are no arguments specified, print help text
+  else {
+    std::cout << "No model files where specified.";
     std::cout
         << "To use this tool, run meh followed by the name of the output 3mf"
         << std::endl
         << "and then the names of the files to convert to 3mf. For example:"
         << std::endl
         << argv[0] << " MyNew3MF.3mf MyFile1.obj  MyFile2.stl etc";
-    std::cout << "No model files where specified";
-    return 2;
+    return 0;
   }
 }
