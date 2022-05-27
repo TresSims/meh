@@ -13,8 +13,11 @@ MehViewer::MehViewer(const char *title, int width, int height)
   add_draw_mode("Smooth Shading");
   add_draw_mode("Hidden Line");
   add_draw_mode("Points");
+  add_draw_mode("Texture");
   set_draw_mode("Smooth Shading");
   meshCount_ = 0;
+  cMesh = 0;
+  cMesh_ = &cMesh;
 }
 
 void MehViewer::keyboard(int key, int scancode, int action, int mods) {
@@ -42,6 +45,8 @@ void MehViewer::load_mesh(const char *filename) {
     meshes_[meshCount_].read(filename);
     names_[meshCount_] = filename;
     vis_[meshCount_] = true;
+    tex_[meshCount_] = false;
+    texnames_[meshCount_] = "";
 
   } catch (const std::exception &e) {
     std::cerr << "Error: " << e.what() << std::endl;
@@ -91,25 +96,61 @@ void MehViewer::process_imgui() {
       // action
       std::cout << filePathName << " " << filePath << std::endl;
       char *inputs[meshCount_];
+      char *texInputs[meshCount_];
+      char none[] = "None";
       for (int i = 0; i < meshCount_; i++) {
         inputs[i] = &(names_[i])[0];
+        if (tex_[i]) {
+          texInputs[i] = &(texnames_[i])[0];
+        } else {
+          texInputs[i] = none;
+        }
       }
 
-      meh::exportModelListTo3MF(inputs, &filePathName[0], meshCount_);
+      meh::exportModelListTo3MF(inputs, texInputs, &filePathName[0],
+                                meshCount_);
     }
 
     // close
     ImGuiFileDialog::Instance()->Close();
   }
 
+  if (ImGuiFileDialog::Instance()->Display(
+          "ChooseNewTexture", ImGuiWindowFlags_NoCollapse, minSize, maxSize)) {
+    if (ImGuiFileDialog::Instance()->IsOk()) {
+      std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
+      std::string filePath = ImGuiFileDialog::Instance()->GetCurrentPath();
+
+      std::cout << filePathName << " " << std::endl;
+      MehViewer::add_mesh_texture(cMesh, &filePathName[0]);
+    }
+
+    ImGuiFileDialog::Instance()->Close();
+  }
+
   for (int i = 0; i < meshCount_; i++) {
+    ImGui::Text("Mesh %d", i + 1);
     ImGui::Text(&(names_[i])[0]);
+    if (tex_[i]) {
+      ImGui::Text(&(texnames_[i])[0]);
+    }
     ImGui::BulletText("%d vertices", (int)meshes_[i].n_vertices());
     ImGui::BulletText("%d edges", (int)meshes_[i].n_edges());
     ImGui::BulletText("%d faces", (int)meshes_[i].n_faces());
-    if (ImGui::Button("Toggle Visibility"))
-      MehViewer::toggle_mesh_vis(i);
     ImGui::Separator();
+  }
+  if (meshCount_ > 0) {
+    if (meshCount_ > 1) {
+      ImGui::SliderInt("", cMesh_, 0, meshCount_ - 1, "Mesh %d");
+    }
+    ImGui::Text("Mesh Options");
+    if (ImGui::Button("Toggle Visibility"))
+      MehViewer::toggle_mesh_vis(cMesh);
+    if (ImGui::Button("Add Texture")) {
+      ImGuiFileDialog::Instance()->OpenDialog(
+          "ChooseNewTexture", "Choose Texture", ".png,.jpg,.jpeg", ".", 0, 0.0f,
+          1, 0, ImGuiWindowFlags_NoCollapse);
+    }
   }
 }
 
@@ -137,4 +178,13 @@ void MehViewer::toggle_mesh_vis(int idx) {
     vis_[idx] = false;
   else
     vis_[idx] = true;
+}
+
+void MehViewer::add_mesh_texture(int idx, char *filename) {
+  meshes_[idx].load_texture(filename);
+
+  texnames_[idx] = filename;
+  tex_[idx] = true;
+
+  set_draw_mode("Texture");
 }

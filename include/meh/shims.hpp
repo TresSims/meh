@@ -15,4 +15,9 @@ sColor convertPMPTo3MFVertexColor(Color color);
 
 sTriangleProperties convertPMPTo3MFTriangleColorProperties(
     SurfaceMesh::VertexAroundFaceCirculator f, PColorGroup resource);
+
+sTriangleProperties
+convertPMPTo3MFUVProperties(SurfaceMesh::HalfedgeAroundFaceCirculator f,
+                            HalfedgeProperty<TexCoord> uvList,
+                            PTexture2DGroup resource);
 } // namespace meh

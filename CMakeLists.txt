@@ -6,7 +6,9 @@ project(meh
         DESCRIPTION "A lightweight model viewer and 3MF packager"
         LANGUAGES CXX)
 
-set(BUILD_WIN TRUE)
+set(CMAKE_CXX_STANDARD 20)
+
+set(BUILD_WIN FALSE)
 
 if(${BUILD_WIN})
         message("Setting build settings for windows, compiler options")

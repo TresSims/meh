@@ -66,4 +66,29 @@ sTriangleProperties convertPMPTo3MFTriangleColorProperties(
   }
   return result;
 }
+
+sTriangleProperties
+convertPMPTo3MFUVProperties(SurfaceMesh::HalfedgeAroundFaceCirculator f,
+                            HalfedgeProperty<TexCoord> uvList,
+                            PTexture2DGroup resource) {
+  /*
+   * \brief Creates a lib3MF sTriangleProperty from a list of vertices,
+   *        and a color resource.
+   * Currenlty this implementation assumes your color resource is indexed
+   * the same as your vertices, this could be changed in the future to
+   * allow for multiple vertices with the same color point to the same
+   * resource index, rather than having two identical resources.
+   */
+
+  sTriangleProperties result;
+  result.m_ResourceID = resource->GetResourceID();
+  int i = 2;
+  for (auto v : f) {
+    const TexCoord &UVs = uvList[v];
+    result.m_PropertyIDs[i] =
+        resource->AddTex2Coord(sLib3MFTex2Coord({UVs[0], UVs[1]}));
+    i--;
+  }
+  return result;
+}
 } // namespace meh

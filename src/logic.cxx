@@ -7,7 +7,7 @@ using namespace Lib3MF;
 using namespace pmp;
 
 namespace meh {
-bool exportModelListTo3MF(char *in[], char *out, int models) {
+bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
   // Create wrapper object for 3mf
   PWrapper wrapper = wrapper->loadLibrary();
   PModel model = wrapper->CreateModel();
@@ -81,6 +81,49 @@ bool exportModelListTo3MF(char *in[], char *out, int models) {
       mesh3MF->SetObjectLevelProperty(colorgroup->GetResourceID(), idW);
     }
 
+    // Check for texture elements
+    bool hasUVs = mesh.has_halfedge_property("h:tex");
+    if (hasUVs) {
+      std::string filePath = std::string(inTex[i]);
+      std::string fileName =
+          filePath.substr(filePath.rfind("/"), filePath.length());
+      std::string fileType =
+          filePath.substr(filePath.rfind("."), filePath.length());
+      std::string path3mf = "3D/Textures" + fileName;
+      std::string pathFile = inTex[i];
+      std::string sRelationshipType_Texture =
+          "http://schemas.microsoft.com/3dmanufacturing/2013/01/3dtexture";
+      PAttachment attachment =
+          model->AddAttachment(path3mf, sRelationshipType_Texture);
+      attachment->ReadFromFile(pathFile);
+
+      PTexture2D texture2D =
+          model->AddTexture2DFromAttachment(attachment.get());
+
+      if (fileType == ".png") {
+        texture2D->SetContentType(eTextureType::PNG);
+      } else if (fileType == ".jpg" || fileType == ".jpeg") {
+        texture2D->SetContentType(eTextureType::JPEG);
+      } else {
+        texture2D->SetContentType(eTextureType::Unknown);
+      }
+
+      texture2D->SetTileStyleUV(eTextureTileStyle::Wrap,
+                                eTextureTileStyle::Wrap);
+
+      PTexture2DGroup textureGroup = model->AddTexture2DGroup(texture2D.get());
+
+      auto uvs = mesh.get_halfedge_property<TexCoord>("h:tex");
+      for (auto f : mesh.faces()) {
+        SurfaceMesh::HalfedgeAroundFaceCirculator hafc = mesh.halfedges(f);
+
+        mesh3MF->SetTriangleProperties(
+            f.idx(), convertPMPTo3MFUVProperties(hafc, uvs, textureGroup));
+      }
+
+      mesh3MF->SetObjectLevelProperty(textureGroup->GetResourceID(), 1);
+    }
+
     // Add model to build list
     model->AddBuildItem(mesh3MF.get(), wrapper->GetIdentityTransform());
   }
@@ -88,9 +131,8 @@ bool exportModelListTo3MF(char *in[], char *out, int models) {
   // Wrtie to file
   PWriter writer = model->QueryWriter("3mf");
   writer->WriteToFile(out);
-  
+
   std::cout << "Model exported.";
   return true;
-
 }
 } // namespace meh
