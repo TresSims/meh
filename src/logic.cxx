@@ -35,7 +35,10 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
 
     // Create 3MF mesh object
     PMeshObject mesh3MF = model->AddMeshObject();
-    mesh3MF->SetName(in[i]);
+    std::string modelPath = std::string(in[i]);
+    std::string modelName =
+        modelPath.substr(modelPath.rfind("/"), modelPath.rfind("."));
+    mesh3MF->SetName(modelName);
 
     // Create mesh elements
     std::vector<sLib3MFPosition> vertices(mesh.n_vertices());
@@ -89,7 +92,7 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
           filePath.substr(filePath.rfind("/"), filePath.length());
       std::string fileType =
           filePath.substr(filePath.rfind("."), filePath.length());
-      std::string path3mf = "3D/Textures" + fileName;
+      std::string path3mf = "/3D/Textures" + fileName;
       std::string pathFile = inTex[i];
       std::string sRelationshipType_Texture =
           "http://schemas.microsoft.com/3dmanufacturing/2013/01/3dtexture";
