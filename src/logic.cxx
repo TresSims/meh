@@ -2,6 +2,7 @@
 #include <iostream>
 #include <meh/shims.hpp>
 #include <pmp/SurfaceMesh.h>
+#include <pmp/algorithms/SurfaceTriangulation.h>
 
 using namespace Lib3MF;
 using namespace pmp;
@@ -30,7 +31,8 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
 
     // ensure mesh has only tris, else skip it.
     if (!mesh.is_triangle_mesh()) {
-      std::cout << "Mesh has non-tri elements, stopping." << std::endl;
+      SurfaceTriangulation divider(mesh);
+      divider.triangulate();
     }
 
     // Create 3MF mesh object
