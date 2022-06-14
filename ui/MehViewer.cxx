@@ -18,6 +18,7 @@ MehViewer::MehViewer(const char *title, int width, int height)
   meshCount_ = 0;
   cMesh = 0;
   cMesh_ = &cMesh;
+  _filepath = ".";
 }
 
 void MehViewer::keyboard(int key, int scancode, int action, int mods) {
@@ -78,6 +79,7 @@ void MehViewer::process_imgui() {
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
       std::string filePath = ImGuiFileDialog::Instance()->GetCurrentPath();
+      _filepath = filePath;
       // action
       std::cout << filePathName << " " << filePath << std::endl;
       MehViewer::load_mesh(&filePathName[0]);
@@ -93,6 +95,7 @@ void MehViewer::process_imgui() {
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
       std::string filePath = ImGuiFileDialog::Instance()->GetCurrentPath();
+      _filepath = filePath;
       // action
       std::cout << filePathName << " " << filePath << std::endl;
       char *inputs[meshCount_];
@@ -120,6 +123,7 @@ void MehViewer::process_imgui() {
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
       std::string filePath = ImGuiFileDialog::Instance()->GetCurrentPath();
+      _filepath = filePath;
 
       std::cout << filePathName << " " << std::endl;
       MehViewer::add_mesh_texture(cMesh, &filePathName[0]);
@@ -148,8 +152,8 @@ void MehViewer::process_imgui() {
       MehViewer::toggle_mesh_vis(cMesh);
     if (ImGui::Button("Add Texture")) {
       ImGuiFileDialog::Instance()->OpenDialog(
-          "ChooseNewTexture", "Choose Texture", ".png,.jpg,.jpeg", ".", 0, 0.0f,
-          1, 0, ImGuiWindowFlags_NoCollapse);
+          "ChooseNewTexture", "Choose Texture", ".png,.jpg,.jpeg", _filepath, 0,
+          0.0f, 1, 0, ImGuiWindowFlags_NoCollapse);
     }
   }
 }
@@ -158,11 +162,11 @@ void MehViewer::process_imgui_menubar() {
   if (ImGui::BeginMenu("File")) {
     if (ImGui::MenuItem("Open..", "Ctrl+O")) {
       ImGuiFileDialog::Instance()->OpenDialog("ChooseNewMesh", "Choose File",
-                                              ".obj,.stl,.off", ".");
+                                              ".obj,.stl,.off", _filepath);
     }
     if (ImGui::MenuItem("Save", "Ctrl+S")) { /* Do stuff */
       ImGuiFileDialog::Instance()->OpenDialog(
-          "SaveNew3MF", "Choose a save Location", ".3mf", ".");
+          "SaveNew3MF", "Choose a save Location", ".3mf", _filepath);
     }
     ImGui::EndMenu();
   }

@@ -34,6 +34,7 @@ protected:
   SurfaceMeshGL meshes_[10];
   std::string names_[10];
   std::string texnames_[10];
+  std::string _filepath;
   bool vis_[10];
   bool tex_[10];
   int meshCount_;
