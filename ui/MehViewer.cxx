@@ -18,7 +18,7 @@ MehViewer::MehViewer(const char *title, int width, int height)
   meshCount_ = 0;
   cMesh = 0;
   cMesh_ = &cMesh;
-  _filepath = ".";
+  filepath_ = ".";
 }
 
 void MehViewer::keyboard(int key, int scancode, int action, int mods) {
@@ -54,10 +54,14 @@ void MehViewer::load_mesh(const char *filename) {
     throw;
   }
 
-  BoundingBox bb = meshes_[meshCount_].bounds();
-  set_scene((vec3)bb.center(), 0.5 * bb.size());
+  MehViewer::focus_mesh(meshCount_);
 
   meshCount_++;
+}
+
+void MehViewer::focus_mesh(int idx) {
+  BoundingBox bb = meshes_[idx].bounds();
+  set_scene((vec3)bb.center(), 0.5 * bb.size());
 }
 
 void MehViewer::draw(const std::string &drawMode) {
@@ -79,7 +83,7 @@ void MehViewer::process_imgui() {
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
       std::string filePath = ImGuiFileDialog::Instance()->GetCurrentPath();
-      _filepath = filePath;
+      filepath_ = filePath;
       // action
       std::cout << filePathName << " " << filePath << std::endl;
       MehViewer::load_mesh(&filePathName[0]);
@@ -95,7 +99,7 @@ void MehViewer::process_imgui() {
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
       std::string filePath = ImGuiFileDialog::Instance()->GetCurrentPath();
-      _filepath = filePath;
+      filepath_ = filePath;
       // action
       std::cout << filePathName << " " << filePath << std::endl;
       char *inputs[meshCount_];
@@ -123,7 +127,7 @@ void MehViewer::process_imgui() {
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
       std::string filePath = ImGuiFileDialog::Instance()->GetCurrentPath();
-      _filepath = filePath;
+      filepath_ = filePath;
 
       std::cout << filePathName << " " << std::endl;
       MehViewer::add_mesh_texture(cMesh, &filePathName[0]);
@@ -152,8 +156,14 @@ void MehViewer::process_imgui() {
       MehViewer::toggle_mesh_vis(cMesh);
     if (ImGui::Button("Add Texture")) {
       ImGuiFileDialog::Instance()->OpenDialog(
-          "ChooseNewTexture", "Choose Texture", ".png,.jpg,.jpeg", _filepath, 0,
+          "ChooseNewTexture", "Choose Texture", ".png,.jpg,.jpeg", filepath_, 0,
           0.0f, 1, 0, ImGuiWindowFlags_NoCollapse);
+    }
+    if (ImGui::Button("Remove Mesh")) {
+      MehViewer::remove_mesh(cMesh);
+    }
+    if (ImGui::Button("Focus Mesh")) {
+      MehViewer::focus_mesh(cMesh);
     }
   }
 }
@@ -162,11 +172,11 @@ void MehViewer::process_imgui_menubar() {
   if (ImGui::BeginMenu("File")) {
     if (ImGui::MenuItem("Open..", "Ctrl+O")) {
       ImGuiFileDialog::Instance()->OpenDialog("ChooseNewMesh", "Choose File",
-                                              ".obj,.stl,.off", _filepath);
+                                              ".obj,.stl,.off", filepath_);
     }
     if (ImGui::MenuItem("Save", "Ctrl+S")) { /* Do stuff */
       ImGuiFileDialog::Instance()->OpenDialog(
-          "SaveNew3MF", "Choose a save Location", ".3mf", _filepath);
+          "SaveNew3MF", "Choose a save Location", ".3mf", filepath_);
     }
     ImGui::EndMenu();
   }
@@ -191,4 +201,21 @@ void MehViewer::add_mesh_texture(int idx, char *filename) {
   tex_[idx] = true;
 
   set_draw_mode("Texture");
+}
+
+void MehViewer::remove_mesh(int idx) {
+  meshes_[idx].clear();
+  meshes_[idx].free_memory();
+
+  for (int i = idx; i < meshCount_ - 1; i++) {
+    if (i < meshCount_) {
+      meshes_[i] = meshes_[i + 1];
+      names_[i] = names_[i + 1];
+      vis_[i] = vis_[i + 1];
+      tex_[i] = tex_[i + 1];
+      texnames_[i] = texnames_[i + 1];
+    }
+  }
+  meshCount_--;
+  MehViewer::focus_mesh(0);
 }

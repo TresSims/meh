@@ -12,13 +12,16 @@ public:
   MehViewer(const char *title, int width, int height);
 
   virtual void load_mesh(const char *filename) override;
-  /* void unload_mesh(int idx); */
+
+  void focus_mesh(int idx);
 
   void draw(const std::string &draw_mode) override;
 
   void toggle_mesh_vis(int idx);
 
   void add_mesh_texture(int idx, char *filename);
+
+  void remove_mesh(int idx);
 
 protected:
   //! this function handles mouse button presses
@@ -34,10 +37,11 @@ protected:
   SurfaceMeshGL meshes_[10];
   std::string names_[10];
   std::string texnames_[10];
-  std::string _filepath;
   bool vis_[10];
   bool tex_[10];
   int meshCount_;
   int cMesh;
   int *cMesh_;
+
+  std::string filepath_;
 };
