@@ -133,7 +133,7 @@ void MehViewer::process_imgui() {
   }
 
   for (int i = 0; i < meshCount_; i++) {
-    ImGui::Text("Mesh %d", i + 1);
+    ImGui::Text("Mesh %d", i);
     ImGui::Text(&(names_[i])[0]);
     if (tex_[i]) {
       ImGui::Text(&(texnames_[i])[0]);
