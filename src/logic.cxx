@@ -30,12 +30,18 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
     mesh.read(in[i]);
 
     // ensure mesh has only tris, else skip it.
+    std::cout << "Checking mesh triangulation" << std::endl;
     if (!mesh.is_triangle_mesh()) {
+      std::cout << "Mesh not triangulated, triangulating manually" << std::endl;
+      std::cout << "WARNING: This will destroy UV's if this mesh has UV data, "
+                   "this technique will result in unpredictable results"
+                << std::endl;
       SurfaceTriangulation divider(mesh);
       divider.triangulate();
     }
 
     // Create 3MF mesh object
+    std::cout << "Createing new 3mf object" << std::endl;
     PMeshObject mesh3MF = model->AddMeshObject();
     std::string modelPath = std::string(in[i]);
     std::string modelName =
@@ -47,15 +53,18 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
     std::vector<sLib3MFTriangle> triangles(mesh.n_faces());
 
     // Check for color elements
+    std::cout << "Checking for vertex color" << std::endl;
     bool hasVertexColor = mesh.has_vertex_property("v:color");
     PColorGroup colorgroup;
     VertexProperty<Color> colors;
     if (hasVertexColor) {
+      std::cout << "Vertex color found, initializing." << std::endl;
       colors = mesh.get_vertex_property<Color>("v:color");
       colorgroup = model->AddColorGroup();
     }
 
     // Add points to 3MF mesh
+    std::cout << "Copying points over" << std::endl;
     auto points = mesh.get_vertex_property<Point>("v:point");
     for (auto v : mesh.vertices()) {
       vertices[v.idx()] = convertPMPto3MFVertex(points[v]);
@@ -65,6 +74,7 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
     }
 
     // Add tris to 3MF mesh
+    std::cout << "Copying tris over" << std::endl;
     for (auto f : mesh.faces()) {
       SurfaceMesh::VertexAroundFaceCirculator vafc = mesh.vertices(f);
       triangles[f.idx()] = convertPMPto3MFFace(vafc);
@@ -74,6 +84,7 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
     mesh3MF->SetGeometry(vertices, triangles);
 
     // Add vertex color to 3MF wrapper, if it existed in the object
+    std::cout << "Adding vertex color to 3mf" << std::endl;
     if (hasVertexColor) {
       for (auto f : mesh.faces()) {
         SurfaceMesh::VertexAroundFaceCirculator vafc = mesh.vertices(f);
@@ -87,17 +98,22 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
     }
 
     // Check for texture elements
+    std::cout << "Looking for UVs" << std::endl;
     bool hasUVs = mesh.has_halfedge_property("h:tex");
     if (hasUVs) {
+      std::cout << "UVs found, populating info" << std::endl;
       std::string filePath = std::string(inTex[i]);
       std::string fileName =
           filePath.substr(filePath.rfind("/"), filePath.length());
       std::string fileType =
           filePath.substr(filePath.rfind("."), filePath.length());
-      std::string path3mf = "/3D/Textures" + fileName;
+      std::string path3mf = "/3D/Textures" + modelName.substr(0, modelName.rfind(".")) + fileType;
       std::string pathFile = inTex[i];
       std::string sRelationshipType_Texture =
           "http://schemas.microsoft.com/3dmanufacturing/2013/01/3dtexture";
+
+      // Try to add new texture. If it already exists, use existing texture
+      // instead
       PAttachment attachment =
           model->AddAttachment(path3mf, sRelationshipType_Texture);
       attachment->ReadFromFile(pathFile);
