@@ -83,7 +83,7 @@ void MehViewer::process_imgui() {
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
       std::string filePath = ImGuiFileDialog::Instance()->GetCurrentPath();
-      filepath_ = filePath;
+      filepath_ = filePath + "/";
       // action
       std::cout << filePathName << " " << filePath << std::endl;
       MehViewer::load_mesh(&filePathName[0]);
@@ -99,7 +99,7 @@ void MehViewer::process_imgui() {
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
       std::string filePath = ImGuiFileDialog::Instance()->GetCurrentPath();
-      filepath_ = filePath;
+      filepath_ = filePath + "/";
       // action
       std::cout << filePathName << " " << filePath << std::endl;
       char *inputs[meshCount_];
@@ -127,7 +127,7 @@ void MehViewer::process_imgui() {
     if (ImGuiFileDialog::Instance()->IsOk()) {
       std::string filePathName = ImGuiFileDialog::Instance()->GetFilePathName();
       std::string filePath = ImGuiFileDialog::Instance()->GetCurrentPath();
-      filepath_ = filePath;
+      filepath_ = filePath + "/";
 
       std::cout << filePathName << " " << std::endl;
       MehViewer::add_mesh_texture(cMesh, &filePathName[0]);
