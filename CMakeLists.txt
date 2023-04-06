@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 # Set project name
-project(meh 
+project(meh
         VERSION 0.1
         DESCRIPTION "A lightweight model viewer and 3MF packager"
         LANGUAGES CXX)
@@ -32,7 +32,7 @@ include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/external/glfw/inclu
 include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/external/glew/include)
 
 # File Dialog for ImGui
-add_subdirectory(extern/ImGuiFileDialog)
+# add_subdirectory(extern/ImGuiFileDialog)
 include_directories(${PROJECT_SOURCE_DIR}/extern/ImGuiFileDialog)
 
 # add source utility
