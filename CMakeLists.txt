@@ -8,21 +8,6 @@ project(meh
 
 set(CMAKE_CXX_STANDARD 20)
 
-set(BUILD_WIN FALSE)
-
-if(${BUILD_WIN})
-        message("Setting build settings for windows, compiler options")
-        set(CMAKE_SYSTEM_NAME Windows)
-
-        SET(CMAKE_C_COMPILER i686-w64-mingw32-gcc)
-        SET(CMAKE_CXX_COMPILER /usr/bin/i686-w64-mingw32-g++)
-        SET(CMAKE_RC_COMPILER i686-w64-mingw32-windres)
-        set(CMAKE_RANLIB i686-w64-mingw32-ranlib)
-
-        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -O2")
-        set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS)
-endif()
-
 # pmp
 add_subdirectory(extern/pmp-library)
 include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/src)
