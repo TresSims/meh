@@ -2,7 +2,6 @@ file(GLOB HEADER_LIST CONFIGURE_DEPENDS ${meh_SOURCE_DIR}/include/meh/*.hpp)
 
 include_directories(${PROJECT_SOURCE_DIR}/extern/lib3mf/Bindings)
 
-message("Setting build settings fow linux, using linux lib")
 find_library(LIB3MF 3mf ${meh_SOURCE_DIR}/extern/lib3mf/Bin)
 
 add_library(shims shims.cxx ${HEADER_LIST})
