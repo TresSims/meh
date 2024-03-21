@@ -1,6 +1,6 @@
 [submodule "extern/pmp-library"]
 	path = extern/pmp-library
-	url = git@github.com:dash-orlando/pmp-library
+	url = git@github.com:TresSims/pmp-library
 [submodule "extern/ImGuiFileDialog"]
 	path = extern/ImGuiFileDialog
 	url = git@github.com:aiekick/ImGuiFileDialog.git
