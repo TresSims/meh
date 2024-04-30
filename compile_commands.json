@@ -1,0 +1,710 @@
+[
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library",
+  "command": "/usr/bin/cc -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/src -O3 -DNDEBUG -fPIC -o CMakeFiles/glew.dir/external/glew-2.2.0/src/glew.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/src/glew.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/src/glew.c",
+  "output": "extern/pmp-library/CMakeFiles/glew.dir/external/glew-2.2.0/src/glew.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/stb_image_write-1.16",
+  "command": "/usr/bin/c++  -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16  -fPIC -ansi -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/stb_image_write.dir/stb_image_write.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16/stb_image_write.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16/stb_image_write.cpp",
+  "output": "extern/pmp-library/external/stb_image_write-1.16/CMakeFiles/stb_image_write.dir/stb_image_write.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/stb_image-2.28",
+  "command": "/usr/bin/c++  -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28  -fPIC -ansi -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/stb_image.dir/stb_image.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28/stb_image.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28/stb_image.cpp",
+  "output": "extern/pmp-library/external/stb_image-2.28/CMakeFiles/stb_image.dir/stb_image.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/context.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/context.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/context.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/init.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/init.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/init.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/input.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/input.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/input.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/monitor.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/monitor.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/monitor.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/platform.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/platform.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/platform.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/platform.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/vulkan.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/vulkan.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/window.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/window.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/window.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/egl_context.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/egl_context.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/osmesa_context.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/osmesa_context.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/null_init.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/null_init.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/null_init.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/null_init.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/null_monitor.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/null_monitor.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/null_monitor.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/null_window.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/null_window.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/null_window.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/null_window.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/null_joystick.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/null_joystick.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/null_joystick.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/posix_module.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/posix_module.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/posix_module.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/posix_module.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/posix_time.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/posix_time.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/posix_time.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/posix_thread.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/posix_thread.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/x11_init.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/x11_init.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/x11_init.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/x11_monitor.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/x11_monitor.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/x11_window.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/x11_window.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/x11_window.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/xkb_unicode.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/xkb_unicode.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/glx_context.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/glx_context.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/glx_context.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/wl_init.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/wl_init.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/wl_init.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/wl_init.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/wl_monitor.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/wl_monitor.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/wl_monitor.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/wl_monitor.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/wl_window.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/wl_window.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/wl_window.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/wl_window.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/linux_joystick.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/linux_joystick.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_BUILD_DLL -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src -I/home/tsims/Documents/meh/build/extern/pmp-library/external/glew-2.2.0/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -fvisibility=hidden -o CMakeFiles/glfw.dir/posix_poll.c.o -c /home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/posix_poll.c",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/src/posix_poll.c",
+  "output": "extern/pmp-library/external/glew-2.2.0/src/CMakeFiles/glfw.dir/posix_poll.c.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/imgui-1.90.4",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/../../external/glfw-3.4/include -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui.cpp",
+  "output": "extern/pmp-library/external/imgui-1.90.4/CMakeFiles/imgui.dir/imgui.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/imgui-1.90.4",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/../../external/glfw-3.4/include -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_demo.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_demo.cpp",
+  "output": "extern/pmp-library/external/imgui-1.90.4/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/imgui-1.90.4",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/../../external/glfw-3.4/include -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_draw.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_draw.cpp",
+  "output": "extern/pmp-library/external/imgui-1.90.4/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/imgui-1.90.4",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/../../external/glfw-3.4/include -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui_impl_glfw.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_impl_glfw.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_impl_glfw.cpp",
+  "output": "extern/pmp-library/external/imgui-1.90.4/CMakeFiles/imgui.dir/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/imgui-1.90.4",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/../../external/glfw-3.4/include -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_impl_opengl3.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_impl_opengl3.cpp",
+  "output": "extern/pmp-library/external/imgui-1.90.4/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/imgui-1.90.4",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/../../external/glfw-3.4/include -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_tables.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_tables.cpp",
+  "output": "extern/pmp-library/external/imgui-1.90.4/CMakeFiles/imgui.dir/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/external/imgui-1.90.4",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/../../external/glfw-3.4/include -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_widgets.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4/imgui_widgets.cpp",
+  "output": "extern/pmp-library/external/imgui-1.90.4/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/surface_mesh.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/surface_mesh.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/surface_mesh.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/surface_mesh.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/curvature.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/curvature.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/curvature.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/curvature.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/decimation.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/decimation.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/decimation.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/decimation.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/differential_geometry.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/differential_geometry.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/differential_geometry.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/differential_geometry.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/distance_point_triangle.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/distance_point_triangle.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/distance_point_triangle.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/distance_point_triangle.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/fairing.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/fairing.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/fairing.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/fairing.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/features.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/features.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/features.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/features.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/geodesics.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/geodesics.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/geodesics.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/geodesics.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/hole_filling.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/hole_filling.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/hole_filling.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/hole_filling.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/laplace.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/laplace.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/laplace.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/laplace.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/normals.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/normals.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/normals.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/normals.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/numerics.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/numerics.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/numerics.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/numerics.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/parameterization.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/parameterization.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/parameterization.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/parameterization.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/remeshing.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/remeshing.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/remeshing.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/remeshing.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/shapes.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/shapes.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/shapes.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/shapes.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/smoothing.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/smoothing.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/smoothing.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/smoothing.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/subdivision.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/subdivision.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/subdivision.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/subdivision.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/triangulation.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/triangulation.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/triangulation.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/triangulation.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/algorithms/utilities.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/utilities.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/algorithms/utilities.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/algorithms/utilities.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/io/io.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/io.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/io.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/io/io.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/io/read_obj.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/read_obj.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/read_obj.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/io/read_obj.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/io/read_off.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/read_off.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/read_off.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/io/read_off.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/io/read_pmp.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/read_pmp.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/read_pmp.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/io/read_pmp.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/io/read_stl.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/read_stl.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/read_stl.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/io/read_stl.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/io/write_obj.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/write_obj.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/write_obj.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/io/write_obj.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/io/write_off.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/write_off.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/write_off.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/io/write_off.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/io/write_pmp.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/write_pmp.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/write_pmp.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/io/write_pmp.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -Dpmp_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fPIC -fopenmp -o CMakeFiles/pmp.dir/io/write_stl.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/write_stl.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/io/write_stl.cpp",
+  "output": "extern/pmp-library/src/pmp/CMakeFiles/pmp.dir/io/write_stl.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp/visualization",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/pmp_vis.dir/mesh_viewer.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/visualization/mesh_viewer.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/visualization/mesh_viewer.cpp",
+  "output": "extern/pmp-library/src/pmp/visualization/CMakeFiles/pmp_vis.dir/mesh_viewer.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp/visualization",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/pmp_vis.dir/renderer.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/visualization/renderer.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/visualization/renderer.cpp",
+  "output": "extern/pmp-library/src/pmp/visualization/CMakeFiles/pmp_vis.dir/renderer.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp/visualization",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/pmp_vis.dir/shader.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/visualization/shader.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/visualization/shader.cpp",
+  "output": "extern/pmp-library/src/pmp/visualization/CMakeFiles/pmp_vis.dir/shader.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp/visualization",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/pmp_vis.dir/trackball_viewer.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/visualization/trackball_viewer.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/visualization/trackball_viewer.cpp",
+  "output": "extern/pmp-library/src/pmp/visualization/CMakeFiles/pmp_vis.dir/trackball_viewer.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/src/pmp/visualization",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/pmp_vis.dir/window.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/src/pmp/visualization/window.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/src/pmp/visualization/window.cpp",
+  "output": "extern/pmp-library/src/pmp/visualization/CMakeFiles/pmp_vis.dir/window.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/basics.dir/basics.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/basics.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/basics.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/basics.dir/basics.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/io.dir/io.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/io.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/io.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/io.dir/io.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/iterators.dir/iterators.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/iterators.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/iterators.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/iterators.dir/iterators.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/barycenter.dir/barycenter.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/barycenter.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/barycenter.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/barycenter.dir/barycenter.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/properties.dir/properties.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/properties.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/properties.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/properties.dir/properties.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/eigen.dir/eigen.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/eigen.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/eigen.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/eigen.dir/eigen.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/mconvert.dir/mconvert.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/mconvert.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/mconvert.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/mconvert.dir/mconvert.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/mview.dir/mview.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/mview.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/mview.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/mview.dir/mview.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/curvature.dir/curvature.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/curvature.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/curvature.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/curvature.dir/curvature.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/subdivision.dir/subdivision.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/subdivision.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/subdivision.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/subdivision.dir/subdivision.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/smoothing.dir/smoothing.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/smoothing.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/smoothing.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/smoothing.dir/smoothing.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/fairing.dir/fairing.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/fairing.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/fairing.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/fairing.dir/fairing.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/parameterization.dir/parameterization.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/parameterization.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/parameterization.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/parameterization.dir/parameterization.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/decimation.dir/decimation.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/decimation.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/decimation.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/decimation.dir/decimation.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/remeshing.dir/remeshing.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/remeshing.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/remeshing.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/remeshing.dir/remeshing.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/hole_filling.dir/hole_filling.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/hole_filling.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/hole_filling.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/hole_filling.dir/hole_filling.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/mpview.dir/mpview.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/mpview.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/mpview.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/mpview.dir/mpview.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/examples",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/mpview.dir/mesh_processing_viewer.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/examples/mesh_processing_viewer.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/examples/mesh_processing_viewer.cpp",
+  "output": "extern/pmp-library/examples/CMakeFiles/mpview.dir/mesh_processing_viewer.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -o CMakeFiles/googletest.dir/__/external/googletest-1.13.0/googletest/src/gtest-all.cc.o -c /home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/src/gtest-all.cc",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/src/gtest-all.cc",
+  "output": "extern/pmp-library/tests/CMakeFiles/googletest.dir/__/external/googletest-1.13.0/googletest/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -o CMakeFiles/googletest.dir/__/external/googletest-1.13.0/googletest/src/gtest_main.cc.o -c /home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/src/gtest_main.cc",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/src/gtest_main.cc",
+  "output": "extern/pmp-library/tests/CMakeFiles/googletest.dir/__/external/googletest-1.13.0/googletest/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/curvature_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/curvature_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/curvature_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/curvature_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/decimation_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/decimation_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/decimation_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/decimation_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/differential_geometry_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/differential_geometry_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/differential_geometry_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/differential_geometry_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/distance_point_triangle_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/distance_point_triangle_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/distance_point_triangle_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/distance_point_triangle_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/eigen_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/eigen_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/eigen_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/eigen_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/fairing_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/fairing_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/fairing_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/fairing_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/features_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/features_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/features_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/features_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/geodesics_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/geodesics_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/geodesics_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/geodesics_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/helpers.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/helpers.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/helpers.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/helpers.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/hole_filling_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/hole_filling_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/hole_filling_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/hole_filling_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/io_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/io_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/io_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/io_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/iterator_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/iterator_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/iterator_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/iterator_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/laplace_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/laplace_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/laplace_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/laplace_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/normals_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/normals_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/normals_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/normals_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/numerics_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/numerics_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/numerics_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/numerics_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/parameterization_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/parameterization_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/parameterization_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/parameterization_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/remeshing_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/remeshing_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/remeshing_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/remeshing_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/shapes_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/shapes_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/shapes_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/shapes_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/smoothing_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/smoothing_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/smoothing_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/smoothing_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/subdivision_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/subdivision_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/subdivision_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/subdivision_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/surface_mesh_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/surface_mesh_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/surface_mesh_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/surface_mesh_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/triangulation_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/triangulation_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/triangulation_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/triangulation_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/extern/pmp-library/tests",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest -I/home/tsims/Documents/meh/extern/pmp-library/external/googletest-1.13.0/googletest/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0  -pedantic -Wall -Wextra -Wshadow -Werror -Wno-deprecated-copy -Wno-int-in-bool-context -O3 -DNDEBUG -std=c++20 -fopenmp -o CMakeFiles/gtest_runner.dir/utilities_test.cpp.o -c /home/tsims/Documents/meh/extern/pmp-library/tests/utilities_test.cpp",
+  "file": "/home/tsims/Documents/meh/extern/pmp-library/tests/utilities_test.cpp",
+  "output": "extern/pmp-library/tests/CMakeFiles/gtest_runner.dir/utilities_test.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/src",
+  "command": "/usr/bin/c++ -Dshims_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew/include -I/home/tsims/Documents/meh/extern/ImGuiFileDialog -I/home/tsims/Documents/meh/include -I/home/tsims/Documents/meh/extern/lib3mf/Bindings -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -O3 -DNDEBUG -std=gnu++20 -fPIC -fopenmp -o CMakeFiles/shims.dir/shims.cxx.o -c /home/tsims/Documents/meh/src/shims.cxx",
+  "file": "/home/tsims/Documents/meh/src/shims.cxx",
+  "output": "src/CMakeFiles/shims.dir/shims.cxx.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/src",
+  "command": "/usr/bin/c++ -Dlogic_EXPORTS -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew/include -I/home/tsims/Documents/meh/extern/ImGuiFileDialog -I/home/tsims/Documents/meh/include -I/home/tsims/Documents/meh/extern/lib3mf/Bindings -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -O3 -DNDEBUG -std=gnu++20 -fPIC -fopenmp -o CMakeFiles/logic.dir/logic.cxx.o -c /home/tsims/Documents/meh/src/logic.cxx",
+  "file": "/home/tsims/Documents/meh/src/logic.cxx",
+  "output": "src/CMakeFiles/logic.dir/logic.cxx.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/apps",
+  "command": "/usr/bin/c++  -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew/include -I/home/tsims/Documents/meh/extern/ImGuiFileDialog -I/home/tsims/Documents/meh/include -I/home/tsims/Documents/meh/extern/lib3mf/Bindings -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/meh.dir/meh.cxx.o -c /home/tsims/Documents/meh/apps/meh.cxx",
+  "file": "/home/tsims/Documents/meh/apps/meh.cxx",
+  "output": "apps/CMakeFiles/meh.dir/meh.cxx.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/ui",
+  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew/include -I/home/tsims/Documents/meh/extern/ImGuiFileDialog -I/home/tsims/Documents/meh/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include -O3 -DNDEBUG -std=gnu++20 -fopenmp -o CMakeFiles/meh_gui.dir/__/extern/ImGuiFileDialog/ImGuiFileDialog.cpp.o -c /home/tsims/Documents/meh/extern/ImGuiFileDialog/ImGuiFileDialog.cpp",
+  "file": "/home/tsims/Documents/meh/extern/ImGuiFileDialog/ImGuiFileDialog.cpp",
+  "output": "ui/CMakeFiles/meh_gui.dir/__/extern/ImGuiFileDialog/ImGuiFileDialog.cpp.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/ui",
+  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew/include -I/home/tsims/Documents/meh/extern/ImGuiFileDialog -I/home/tsims/Documents/meh/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include -O3 -DNDEBUG -std=gnu++20 -fopenmp -o CMakeFiles/meh_gui.dir/meh_gui.cxx.o -c /home/tsims/Documents/meh/ui/meh_gui.cxx",
+  "file": "/home/tsims/Documents/meh/ui/meh_gui.cxx",
+  "output": "ui/CMakeFiles/meh_gui.dir/meh_gui.cxx.o"
+},
+{
+  "directory": "/home/tsims/Documents/meh/build/ui",
+  "command": "/usr/bin/c++ -DIMGUI_USER_CONFIG=\\\"pmp_imconfig.h\\\" -I/home/tsims/Documents/meh/extern/pmp-library/src -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew/include -I/home/tsims/Documents/meh/extern/ImGuiFileDialog -I/home/tsims/Documents/meh/include -I/home/tsims/Documents/meh/extern/pmp-library/src/pmp/.. -I/home/tsims/Documents/meh/extern/pmp-library/external/eigen-3.4.0 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image-2.28 -I/home/tsims/Documents/meh/extern/pmp-library/external/stb_image_write-1.16 -I/home/tsims/Documents/meh/extern/pmp-library/external/imgui-1.90.4 -I/home/tsims/Documents/meh/extern/pmp-library/external/glfw-3.4/include -I/home/tsims/Documents/meh/extern/pmp-library/external/glew-2.2.0/include -O3 -DNDEBUG -std=gnu++20 -fopenmp -o CMakeFiles/meh_gui.dir/MehViewer.cxx.o -c /home/tsims/Documents/meh/ui/MehViewer.cxx",
+  "file": "/home/tsims/Documents/meh/ui/MehViewer.cxx",
+  "output": "ui/CMakeFiles/meh_gui.dir/MehViewer.cxx.o"
+}
+]

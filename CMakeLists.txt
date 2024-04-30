@@ -10,14 +10,13 @@ set(CMAKE_CXX_STANDARD 20)
 
 # pmp
 add_subdirectory(extern/pmp-library)
-include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/src)
+include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/src/)
 include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/external/imgui)
 include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/external/eigen)
 include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/external/glfw/include)
 include_directories(${PROJECT_SOURCE_DIR}/extern/pmp-library/external/glew/include)
 
 # File Dialog for ImGui
-# add_subdirectory(extern/ImGuiFileDialog)
 include_directories(${PROJECT_SOURCE_DIR}/extern/ImGuiFileDialog)
 
 # add source utility

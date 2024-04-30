@@ -1,8 +1,9 @@
 #pragma once
 
+#include "ImGuiFileDialog.h"
 #include <meh/logic.hpp>
-#include <pmp/algorithms/SurfaceSmoothing.h>
-#include <pmp/visualization/MeshViewer.h>
+#include <pmp/algorithms/smoothing.h>
+#include <pmp/visualization/mesh_viewer.h>
 
 using namespace pmp;
 
@@ -32,9 +33,8 @@ protected:
 
   virtual void process_imgui() override;
 
-  virtual void process_imgui_menubar() override;
-
-  SurfaceMeshGL meshes_[10];
+  virtual void process_imgui_menubar();
+  SurfaceMesh meshes_[10];
   std::string names_[10];
   std::string texnames_[10];
   bool vis_[10];
@@ -43,5 +43,5 @@ protected:
   int cMesh;
   int *cMesh_;
 
-  std::string filepath_;
+  IGFD::FileDialogConfig config;
 };

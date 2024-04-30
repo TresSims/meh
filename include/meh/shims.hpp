@@ -1,7 +1,7 @@
 #pragma once
 
-#include "lib3mf_implicit.hpp"
-#include <pmp/SurfaceMesh.h>
+#include "Cpp/lib3mf_implicit.hpp"
+#include <pmp/surface_mesh.h>
 
 using namespace Lib3MF;
 using namespace pmp;

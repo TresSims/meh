@@ -1,8 +1,8 @@
-#include "lib3mf_implicit.hpp"
+#include "Cpp/lib3mf_implicit.hpp"
 #include <iostream>
 #include <meh/shims.hpp>
-#include <pmp/SurfaceMesh.h>
-#include <pmp/algorithms/SurfaceTriangulation.h>
+#include <pmp/algorithms/triangulation.h>
+#include <pmp/surface_mesh.h>
 
 using namespace Lib3MF;
 using namespace pmp;
@@ -27,7 +27,7 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
     std::cout << "Processing " << in[i] << std::endl;
 
     // Load mesh file
-    mesh.read(in[i]);
+    read_pmp(mesh, in[i]);
 
     // ensure mesh has only tris, else skip it.
     std::cout << "Checking mesh triangulation" << std::endl;
@@ -36,8 +36,7 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
       std::cout << "WARNING: This will destroy UV's if this mesh has UV data, "
                    "this technique will result in unpredictable results"
                 << std::endl;
-      SurfaceTriangulation divider(mesh);
-      divider.triangulate();
+      triangulate(mesh);
     }
 
     // Create 3MF mesh object
@@ -107,7 +106,8 @@ bool exportModelListTo3MF(char *in[], char *inTex[], char *out, int models) {
           filePath.substr(filePath.rfind("/"), filePath.length());
       std::string fileType =
           filePath.substr(filePath.rfind("."), filePath.length());
-      std::string path3mf = "/3D/Textures" + modelName.substr(0, modelName.rfind(".")) + fileType;
+      std::string path3mf =
+          "/3D/Textures" + modelName.substr(0, modelName.rfind(".")) + fileType;
       std::string pathFile = inTex[i];
       std::string sRelationshipType_Texture =
           "http://schemas.microsoft.com/3dmanufacturing/2013/01/3dtexture";
